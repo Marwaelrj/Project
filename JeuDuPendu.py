@@ -47,5 +47,5 @@ elif grandeur== 0:
     print("Bravo ! Tu as trouvé le mot !")
 replay=int(input("Tape 1 pour rejouer  "))
 if replay != 1 :
-        break
+
 
