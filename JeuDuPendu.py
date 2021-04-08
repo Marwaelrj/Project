@@ -1,6 +1,4 @@
 print("Bienvenue dans le jeu du Pendu")
-play=int(input("Tape 1 si tu veux jouer ! \n "))
-if play == 1 :
     prénom=input("Quel est ton nom ?")
     print("\n")
     print("Salut", prénom)
@@ -47,7 +45,7 @@ if vie== 0:
     print("Dommage,tu as perdu")
 elif grandeur== 0:
     print("Bravo ! Tu as trouvé le mot !")
-replay=int(input("Tape 1 pour rejouer, et sur 2 si tu veux quitter le jeu   "))
+replay=int(input("Tape 1 pour rejouer  "))
 if replay != 1 :
         break
-print(prénom,"vous avez un score de ",score)
+
